@@ -52,4 +52,3 @@ Then follow the roadmap:
 Read the project mission here:
 
 [MISSION.md](MISSION.md)
-# behind_the_screen
