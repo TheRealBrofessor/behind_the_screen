@@ -1,6 +1,6 @@
 # Behind the Screen
 
-## One Man’s Journey, Another Person’s Guide
+## One Man's Journey, Another Person's Guide
 
 A practical cybersecurity learning journey for people who thought they were too late to learn modern technology.
 
@@ -43,6 +43,10 @@ Read the mission:
 ## Project Resources
 
 - [Resources](resources/README.md)
+- [Books](resources/books.md)
+- [Websites](resources/websites.md)
+- [Tools](resources/tools.md)
+- [Practice Platforms](resources/practice-platforms.md)
 - [Notes](notes/README.md)
 - [Project Journal](project-journal/README.md)
 
