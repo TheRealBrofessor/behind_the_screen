@@ -1,0 +1,240 @@
+---
+---
+
+@import "minima";
+
+:root {
+  --bg: #f4f7fb;
+  --panel: #ffffff;
+  --ink: #172033;
+  --muted: #5f6f86;
+  --line: #dbe4ef;
+  --dark: #08111f;
+  --dark-2: #101c31;
+  --accent: #0ea5e9;
+  --accent-dark: #0369a1;
+  --soft: #eaf6ff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background:
+    radial-gradient(circle at top left, rgba(14, 165, 233, 0.12), transparent 34rem),
+    linear-gradient(180deg, #f8fbff 0%, var(--bg) 100%);
+  color: var(--ink);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.65;
+}
+
+.site-header {
+  background: linear-gradient(135deg, var(--dark), var(--dark-2));
+  border-top: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 10px 24px rgba(8, 17, 31, 0.18);
+}
+
+.site-title,
+.site-title:visited {
+  color: #ffffff;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+}
+
+.site-title:hover {
+  text-decoration: none;
+  color: #dff5ff;
+}
+
+.site-nav .page-link {
+  color: #d8e3f0;
+  font-weight: 650;
+  margin-left: 18px;
+}
+
+.site-nav .page-link:hover {
+  color: #7dd3fc;
+  text-decoration: none;
+}
+
+.page-content {
+  padding: 42px 0 56px;
+}
+
+.wrapper {
+  max-width: 1040px;
+}
+
+.post,
+.page-content .wrapper > .home,
+.page-content .wrapper > article {
+  background: rgba(255, 255, 255, 0.94);
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  padding: 34px;
+  box-shadow: 0 18px 45px rgba(25, 42, 70, 0.08);
+}
+
+.post-title,
+.post-content h1,
+.page-content h1:first-child {
+  color: var(--dark);
+  font-size: clamp(2.1rem, 5vw, 4rem);
+  line-height: 1.03;
+  letter-spacing: -0.06em;
+  margin-bottom: 0.25em;
+}
+
+.post-content h2,
+.page-content h2 {
+  color: #10223a;
+  font-weight: 800;
+  letter-spacing: -0.035em;
+  margin-top: 1.55em;
+  padding-top: 0.25em;
+}
+
+.post-content h2:first-of-type,
+.page-content h1 + h2 {
+  color: var(--muted);
+  font-size: clamp(1.25rem, 2.5vw, 1.85rem);
+  font-weight: 600;
+  margin-top: 0;
+  letter-spacing: -0.025em;
+}
+
+.post-content p,
+.post-content li {
+  font-size: 1.04rem;
+}
+
+.post-content a {
+  color: var(--accent-dark);
+  font-weight: 700;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.18em;
+}
+
+.post-content a:hover {
+  color: #075985;
+}
+
+.post-content hr {
+  border: 0;
+  border-top: 1px solid var(--line);
+  margin: 2rem 0;
+}
+
+.post-content ul,
+.post-content ol {
+  padding-left: 1.4rem;
+}
+
+.post-content li + li {
+  margin-top: 0.4rem;
+}
+
+.post-content > h1:first-child,
+.home > h1:first-child {
+  background: linear-gradient(135deg, #08111f, #12345c 64%, #0369a1);
+  color: #ffffff;
+  margin: -34px -34px 0.45em;
+  padding: 54px 34px 18px;
+  border-radius: 22px 22px 0 0;
+}
+
+.post-content > h1:first-child + h2,
+.home > h1:first-child + h2 {
+  background: linear-gradient(135deg, #08111f, #12345c 64%, #0369a1);
+  color: #cfe9f8;
+  margin: -0.45em -34px 28px;
+  padding: 0 34px 42px;
+  border-radius: 0 0 22px 22px;
+}
+
+.post-content h2 + p,
+.post-content h2 + ol,
+.post-content h2 + ul {
+  margin-top: 0.8rem;
+}
+
+.post-content h2:not(:first-of-type) {
+  border-top: 1px solid var(--line);
+}
+
+.post-content ol li::marker {
+  color: var(--accent-dark);
+  font-weight: 800;
+}
+
+.post-content blockquote {
+  border-left: 5px solid var(--accent);
+  background: var(--soft);
+  color: #233a55;
+  padding: 1rem 1.2rem;
+  border-radius: 0 12px 12px 0;
+}
+
+.post-content code {
+  background: #eef5fb;
+  color: #0f172a;
+  border-radius: 6px;
+  padding: 0.12em 0.35em;
+}
+
+pre,
+.highlight {
+  background: #0b1220;
+  color: #d9e8ff;
+  border-radius: 14px;
+  border: 1px solid #1f2f4a;
+}
+
+.site-footer {
+  background: var(--dark);
+  border-top: 0;
+  color: #b9c7d7;
+  margin-top: 44px;
+}
+
+.site-footer a {
+  color: #7dd3fc;
+}
+
+.footer-heading {
+  color: #ffffff;
+}
+
+@media screen and (max-width: 700px) {
+  .page-content {
+    padding: 22px 0 38px;
+  }
+
+  .post,
+  .page-content .wrapper > .home,
+  .page-content .wrapper > article {
+    padding: 22px;
+    border-radius: 18px;
+  }
+
+  .post-content > h1:first-child,
+  .home > h1:first-child {
+    margin: -22px -22px 0.45em;
+    padding: 38px 22px 16px;
+    border-radius: 18px 18px 0 0;
+  }
+
+  .post-content > h1:first-child + h2,
+  .home > h1:first-child + h2 {
+    margin: -0.45em -22px 24px;
+    padding: 0 22px 32px;
+    border-radius: 0 0 18px 18px;
+  }
+
+  .site-nav .page-link {
+    color: #111827;
+    margin-left: 0;
+  }
+}
