@@ -2,7 +2,7 @@
 
 ## One Man’s Journey, Another Person’s Guide
 
-A practical cybersecurity learning journey designed for people who thought they were too late to learn modern technology.
+A practical cybersecurity learning journey for people who thought they were too late to learn modern technology.
 
 This project breaks down cybersecurity, Linux, networking, hardware, internet traffic, AI awareness, and basic OPSEC into clear beginner-friendly lessons.
 
@@ -12,7 +12,7 @@ The goal is not to rush. The goal is to build confidence one concept at a time.
 
 This guide is for people who feel like technology moved too fast and left them behind.
 
-It is for beginners who want to understand cybersecurity, Linux, networking, hardware, internet traffic, and basic online safety without being overwhelmed by technical language.
+It is for beginners who want to understand cybersecurity, Linux, networking, hardware, internet traffic, and basic online safety without getting buried in technical language.
 
 You do not need prior experience. You only need patience, curiosity, and the willingness to learn one concept at a time.
 
