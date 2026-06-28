@@ -47,6 +47,10 @@ Topics:
 
 Goal: Understand how devices communicate.
 
+Start here:
+
+[Networking 101](lessons/04-networking-basics/README.md)
+
 Topics:
 
 - IP addresses
@@ -56,6 +60,7 @@ Topics:
 - Packets
 - LAN vs WAN
 - Wi-Fi basics
+- Simple local network checks
 
 ## Phase 5: Internet Traffic
 
